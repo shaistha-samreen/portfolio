@@ -4,7 +4,7 @@ import { LinkedinFilled, GithubFilled, MailOutlined  } from '@ant-design/icons';
 import { TypeAnimation } from 'react-type-animation';
 
 const Content = ({ isDarkTheme }) => {
-  const contentClass = isDarkTheme ? 'bg-gray-950 text-white' : 'bg-white text-gray-950';
+  const contentClass = isDarkTheme ? 'bg-black text-white' : 'bg-white text-black';
 
   return (
     <div className={`w-full h-full  ${contentClass}`}>
@@ -22,8 +22,8 @@ const Content = ({ isDarkTheme }) => {
         </div>
 
         <div className='flex flex-col gap-1'>
-          <span className='lg:text-5xl sm:text-3xl text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r  from-purple-600 to-pink-500'>Hello, I'm </span>
-          <span className='lg:text-5xl sm:text-3xl text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r  from-purple-600 to-pink-500'><TypeAnimation
+          <span className='lg:text-5xl sm:text-4xl text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r  from-purple-600 to-pink-500'>Hello, I'm </span>
+          <span className='lg:text-5xl sm:text-4xl text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r  from-purple-600 to-pink-500'><TypeAnimation
       sequence={[
         
         'Shaistha Samreen',

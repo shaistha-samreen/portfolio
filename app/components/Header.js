@@ -9,7 +9,7 @@ export default function Header({ isDarkTheme, toggleTheme }) {
   };
 
   return (
-    <header className={`bg-${isDarkTheme ? 'gray-950' : 'purple-100'} text-purple-700 p-4`}>
+    <header className={`bg-${isDarkTheme ? 'black' : 'purple-100'} text-purple-700 p-4`}>
       <div className="flex justify-end items-center">
         
         {/* Mobile Menu Button */}
